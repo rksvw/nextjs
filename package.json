@@ -2,9 +2,12 @@
   "name": "next",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/app/layout.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/rksvw/nextjs/issues"
   },
-  "homepage": "https://github.com/rksvw/nextjs#readme"
+  "homepage": "https://github.com/rksvw/nextjs#readme",
+  "dependencies": {
+    "next": "^15.1.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.7"
+  }
 }
